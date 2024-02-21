@@ -1,0 +1,32 @@
+/* bottom */
+.bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  align-items: center;
+  padding: 20px;
+  align-self: flex-end;
+  height: 3.8rem;
+}
+.icon {
+  height: 30px;
+}
+.left_social {
+  border-top: 1px solid rgb(192, 192, 192);
+  border-left: 1px solid rgb(192, 192, 192);
+}
+.middle_social {
+  border-top: 1px solid rgb(192, 192, 192);
+}
+
+.right_social {
+  border-top: 1px solid rgb(192, 192, 192);
+  border-right: 1px solid rgb(192, 192, 192);
+}
+/* End BOTTOM */
